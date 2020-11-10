@@ -68,17 +68,12 @@ public class Balloon : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("p"))
-        {
-            pausa = !pausa;
-            if (pausa)
-            {
-                Time.timeScale = 0;
-            }
-            else
-            {
-                Time.timeScale = 1;
-            }
-        }
+    
+    }
+
+    public void Pausa()
+    {
+        pausa = !pausa;
+        Time.timeScale = pausa ? 0 : 1;
     }
 }

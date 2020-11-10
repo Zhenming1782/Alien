@@ -22,7 +22,7 @@ public class Nave : MonoBehaviour
 	void FixedUpdate()
 	{
 		if(direccion>0.0f)
-			gameObject.transform.Translate(0,0.05f*direccion,0);
+			gameObject.transform.Translate(0,0.4f*direccion,0);
 		else
 		gameObject.transform.Translate(0,-0.05f,0);
 	}
@@ -30,11 +30,15 @@ public class Nave : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-	    if (Input.GetKeyDown("space"))
-	    {
-		    Instantiate(proyectil, transform.position, Quaternion.Euler(0,0,90));
-	    }
-        direccion = Input.GetAxis("Vertical");
+        // if (Input.GetKeyDown("space"))
+	    // {
+		//     Instantiate(proyectil, transform.position, Quaternion.Euler(0,0,90));
+	    // }
+        // direccion = Input.GetAxis("Vertical");
+        
+        // Para usar el teclado comentar la sgte linea y 
+        // descomentar las lineas anteriores
+        direccion = Input.acceleration.y;
 
         if (Math.Abs(transform.position.y) > 5f)
         {
@@ -45,5 +49,10 @@ public class Nave : MonoBehaviour
         {
 	        Destroy(gameObject);
         }
+    }
+
+    public void Shoot()
+    {
+        Instantiate(proyectil, transform.position, Quaternion.Euler(0,0,90));
     }
 }
