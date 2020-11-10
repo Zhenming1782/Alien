@@ -36,12 +36,6 @@ public class Balloon : MonoBehaviour
             {gColor.Yellow, Color.yellow}
         };
     }
-    
-    
-    public void volver()
-    {
-        SceneManager.LoadScene("MainMenu");
-    }
 
     void Start()
     {

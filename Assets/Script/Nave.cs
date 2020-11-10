@@ -40,5 +40,10 @@ public class Nave : MonoBehaviour
         {
 	        Destroy(gameObject);
         }
+
+        if (ScoreScript.scoreValue < 0)
+        {
+	        Destroy(gameObject);
+        }
     }
 }

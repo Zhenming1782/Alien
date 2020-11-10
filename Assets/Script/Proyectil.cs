@@ -26,10 +26,12 @@ public class Proyectil : MonoBehaviour
                 Destroy(gameObject);
                 if (GetComponent<SpriteRenderer>().color == Color.blue)
                 {
+                    ScoreScript.scoreValue += 10;
                     Debug.Log("Si");
                 }
                 else
                 {
+                    ScoreScript.scoreValue += 1;
                     Debug.Log("No");
                 }
             }
