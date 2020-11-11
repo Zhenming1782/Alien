@@ -25,7 +25,7 @@ public class Timer : MonoBehaviour
     private void FixedUpdate()
     {
 
-        if (Time.time >= nextUpdate)
+        if (Time.time >= nextUpdate && !Balloon.pausa)
         {
             nextUpdate=Mathf.FloorToInt(Time.time)+1;
             if ( ((int) t % 60)%10 == 0 && !ya)
@@ -43,11 +43,14 @@ public class Timer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        t = Time.time - startTime;
-        minutes = ((int) t / 60).ToString().PadLeft(2, '0');
-        seconds = ((int) t % 60).ToString().PadLeft(2, '0');
-        TimerText.text = minutes + ":" + seconds;
+        if(!Balloon.pausa){
 
-        
+            t = Time.time - startTime;
+            minutes = ((int) t / 60).ToString().PadLeft(2, '0');
+            seconds = ((int) t % 60).ToString().PadLeft(2, '0');
+            TimerText.text = minutes + ":" + seconds;
+        }
+
+
     }
 }

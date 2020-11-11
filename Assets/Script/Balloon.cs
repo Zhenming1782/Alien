@@ -19,7 +19,7 @@ public enum gColor
 public class Balloon : MonoBehaviour
 {
     public GameObject balloon;
-    public Boolean pausa = true;
+    public static Boolean pausa = false;
     private Dictionary<gColor, Color> colores;
 
     private Coroutine _coroutine;
