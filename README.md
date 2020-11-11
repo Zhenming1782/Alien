@@ -4,7 +4,7 @@
 
 ### Ejemplo Corrida
 
-<img src="https://s8.gifyu.com/images/galuch.gif" alt="galuchi"  />
+<img src="https://s8.gifyu.com/images/galu.gif" alt="galuchi"  />
 
 ### Objetivos del Juego:
 Estado | Objetivo
