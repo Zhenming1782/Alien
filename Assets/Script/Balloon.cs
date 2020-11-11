@@ -75,5 +75,13 @@ public class Balloon : MonoBehaviour
     {
         pausa = !pausa;
         Time.timeScale = pausa ? 0 : 1;
+        if (pausa) 
+        {
+            gameObject.GetComponent<AudioSource>().Pause();
+        }
+        else 
+        {
+            gameObject.GetComponent<AudioSource>().UnPause();
+        }
     }
 }
