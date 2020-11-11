@@ -23,3 +23,5 @@ Estado | Objetivo
 ✅ | Cuando la nave logre un total de 500 puntos en la cantidad de helio, se pasa al siguiente nivel
 ✅ | Esta versión del juego solo debe tener un nivel.
 ✅ | Esta versión del juego podrá generar mayor cantidad de globos azules.
+⭐️ | Utiliza el giroscopio para mover el personaje hacia arriba
+⭐️ | Efectos de sonido y musica de fondo
