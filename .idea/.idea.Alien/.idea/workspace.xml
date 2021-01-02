@@ -20,13 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66da995e-585d-4f45-8b82-1cf6f451381b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Alien/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Alien/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Alien/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Alien/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Alien/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Alien/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Juego.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Juego.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Balloon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Balloon.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Nave.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Nave.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Timer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Timer.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +95,8 @@
       <updated>1605001388882</updated>
       <workItem from="1605001390448" duration="9009000" />
       <workItem from="1605047068508" duration="2797000" />
-      <workItem from="1605051066167" duration="3483000" />
+      <workItem from="1605051066167" duration="3640000" />
+      <workItem from="1605114656214" duration="642000" />
     </task>
     <servers />
   </component>
